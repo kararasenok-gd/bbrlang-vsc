@@ -1,0 +1,41 @@
+{
+	"fileTypes": [".bbr"],
+	"name": "BebraLang",
+	"scopeName": "index.bbr",
+	"patterns": [
+	  {
+		"name": "keyword.control.BebraLang",
+		"match": "^!<"
+	  },
+	  {
+		"name": "keyword.control.BebraLang",
+		"match": "^!>"
+	  },
+	  {
+		"name": "keyword.control.BebraLang",
+		"match": "^!/ "
+	  },
+	  {
+		"name": "keyword.control.BebraLang",
+		"match": "^!! "
+	  },
+	  {
+		"name": "keyword.control.BebraLang",
+		"match": "^!_ "
+	  },
+	  {
+		"name": "keyword.control.BebraLang",
+		"match": "^!="
+	  },
+	  {
+		"name": "string.quoted.double.BebraLang",
+		"begin": "^!col>(blue|purple|cyan|green|orange|red|gray|white)>>",
+		"end": "$"
+	  },
+	  {
+		"name": "comment.line.BebraLang",
+		"match": "^(?!\\!).*$"
+	  }
+	]
+  }
+  

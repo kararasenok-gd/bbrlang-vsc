@@ -1,0 +1,29 @@
+{
+  "name": "bebralang",
+  "displayName": "BebraLang",
+  "description": ".bbr support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "bbr",
+      "aliases": ["BebraLang", "bbr"],
+      "extensions": [".bbr"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "bbr",
+      "scopeName": "index.bbr",
+      "path": "./syntaxes/bbr.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kararasenok-gd/bbrlang-vsc"
+  }
+}

@@ -3,6 +3,7 @@
   "displayName": "BebraLang",
   "description": ".bbr support",
   "version": "0.0.1",
+  "publisher": "kararasenokgd",
   "engines": {
     "vscode": "^1.91.0"
   },

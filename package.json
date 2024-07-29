@@ -2,8 +2,9 @@
   "name": "bebralang",
   "displayName": "BebraLang",
   "description": ".bbr support",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "kararasenokgd",
+  "icon": "image/bbrlang.png",
   "engines": {
     "vscode": "^1.91.0"
   },
